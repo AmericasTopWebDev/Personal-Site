@@ -1,0 +1,49 @@
+.userIcon,
+.menuButton {
+    width: 30px;
+}
+
+
+nav {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 15px;
+    padding-top: 10px;
+    height: 40px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+
+    transition: height 0.5s, background-color 0.5s;
+    transition-timing-function: ease-in-out 1s;
+
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+
+nav:hover {
+    height: 50px;
+    background-color: white;
+
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: calc(var(--nav-size) * 0.8);
+}
+
+div.user,
+div.menu {
+    position: relative;
+}
+
+nav * {
+    cursor: pointer;
+}
+
+nav>div>*:hover {
+    color: rgb(124, 124, 124);
+}

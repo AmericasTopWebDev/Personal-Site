@@ -1,0 +1,23 @@
+.CloudPanel {
+    position: relative;
+}
+
+.videoTag {
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.hero {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+    width: 600px;
+
+    font-size: 60px;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}

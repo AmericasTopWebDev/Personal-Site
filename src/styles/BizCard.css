@@ -1,0 +1,132 @@
+/* footer */
+div.socials {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    width: 100%;
+    gap: 25px;
+    padding: 10px;
+    background-color: rgb(23, 23, 27);
+    box-sizing: border-box;
+    margin-top: 30px;
+}
+
+.socials img {
+    width: 25px;
+    height: 25px;
+    filter: invert(70%);
+}
+
+
+
+/* interests */
+
+div.interests {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    gap: 5px;
+}
+
+.interests h2 {
+    margin: unset;
+}
+
+.interests p {
+    margin-top: unset;
+    width: 3000px;
+}
+
+
+/* info */
+
+div.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.info img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.info h1 {
+    margin-bottom: 2px;
+    font-size: 26px;
+}
+
+.info h2 {
+    margin: unset;
+    color: rgb(221, 179, 142);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.info h3 {
+    margin-top: 2px;
+    font-weight: 300;
+    font-size: 12px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+    margin-top: 4px;
+}
+
+.buttons * {
+    background-color: white;
+    border-radius: 5px;
+    width: 150px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+}
+
+/* about */
+
+div.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 300px;
+}
+
+.about h2,
+.interests h2 {
+    margin: unset;
+    margin-bottom: 6px;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.about p,
+.interests p {
+    margin-top: unset;
+    width: 300px;
+    font-size: 12px;
+}
+
+/*card*/
+
+div#Card {
+    background-color: rgb(32, 32, 39);
+    border: 1px solid rgb(199, 199, 199);
+    border-radius: 10px;
+    width: 350px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+
+}

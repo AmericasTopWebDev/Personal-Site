@@ -24,17 +24,17 @@ function SkillsPanel() {
             transition={{ type: "spring", stiffness: 200, duration: 5 }} >
             <h2> Skills: </h2>
             <ul className="gallery">
-                <li> <img id="JS" className="placeholder" src={"./skills/JS.png"} />
+                <li> <img id="JS" className="placeholder" src={"./skills/JS.png"} alt={"JS"} />
                     JavaScript</li>
-                <li> <img id="React" className="placeholder" src={"./skills/React.png"} />
+                <li> <img id="React" className="placeholder" src={"./skills/React.png"} alt={"React"} />
                     React </li>
-                <li> <img id="HTML" className="placeholder" src={"./skills/HTML.png"} />
+                <li> <img id="HTML" className="placeholder" src={"./skills/HTML.png"} alt={"HTML"} />
                     HTML </li>
-                <li> <img id="CSS" className="placeholder" src={"./skills/CSS.png"} />
+                <li> <img id="CSS" className="placeholder" src={"./skills/CSS.png"} alt={"CSS"} />
                     CSS </li>
-                <li> <img id="C" className="placeholder" src={"./skills/C.png"} />
+                <li> <img id="C" className="placeholder" src={"./skills/C.png"} alt={"C"} />
                     C </li>
-                <li> <img id="Python" className="placeholder" src={"./skills/Python.png"} />
+                <li> <img id="Python" className="placeholder" src={"./skills/Python.png"} alt={"Python"} />
                     Python </li>
             </ul>
         </motion.div>

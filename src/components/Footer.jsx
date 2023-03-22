@@ -12,7 +12,7 @@ function Footer() {
                     <div style={{ fontSize: "25" }}> Click to view my resume
                     </div>
                 </div>
-                <a href="./skills/resume-02-07-23.pdf" target="_blank">
+                <a href="./skills/resume.pdf" target="_blank">
                     <motion.button id="resume-link"
                         whileHover={{ scale: 1.1 }}
                         whileTap={{ scale: 0.95 }}>

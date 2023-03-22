@@ -1,7 +1,7 @@
 {
+  "homepage": "https://github.com/AmericasTopWebDev/Personal-Site-03-23",
   "name": "info-site",
   "version": "0.1.0",
-  "homepage": "https://github.com/AmericasTopWebDev/Personal-Site-03-23",
   "private": true,
   "dependencies": {
     "@heroicons/react": "^1.0.0",
@@ -19,7 +19,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

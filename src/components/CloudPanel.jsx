@@ -9,7 +9,8 @@ function CloudPanel() {
                 <source src={Clouds} type='video/mp4' />
 
             </video>
-            <p className="hero"> Hello there, let's work together!</p>
+            <p className="hero"> Lucas Harrison </p>
+            <h2 className="subhero"> Full Stack </h2>
         </div>
     )
 }

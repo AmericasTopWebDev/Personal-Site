@@ -1,7 +1,7 @@
 {
   "name": "info-site",
   "version": "0.1.0",
-  "homepage": "https://americastopwebdev.github.io/Personal-Site-03-23/",
+  "homepage": "https://americastopwebdev.github.io/Personal-Site/",
   "private": true,
   "dependencies": {
     "@heroicons/react": "^1.0.0",

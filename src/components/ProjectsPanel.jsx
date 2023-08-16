@@ -25,7 +25,7 @@ import '../styles/ProjectsPanel.css'
     let project_little_library = new ProjectCard("Local Library Catalog", "A simple site with backend to manage and view a library's book catalog. Uses Express and Mongoose, deployed on render (link may take a while). Part of an MDN Docs tutorial", "./projects/local_library.png", "https://local-library-site.onrender.com");
     let project_minitar = new ProjectCard("Minitar", "A tar archive utility capabale of extraction and archival. Written in C, developed in a team of two.", "./projects/GitHub-Mark.png", "https://github.umn.edu/harr2512/mini-tar")
     let project_swish = new ProjectCard("SWISH", "A simple shell featuring program execution and process management. Written in C, heavy use of system calls. Also developed in a team of two", "./projects/GitHub-Mark.png", "https://github.umn.edu/harr2512/SWISH")
-    let project_bamntrak = new ProjectCard("Bamntrak", "Full-stack nutrition logging app optimized for speedy data entry. Built with React on web and React native on mobile.", "./projects/BamntrakWeb.png")
+    let project_bamntrak = new ProjectCard("Bamntrak", "Full-stack nutrition logging app optimized for speedy data entry. Built with React on web and React native on mobile.", "./projects/BamntrakWeb.png", "https://bamntrack.netlify.app/")
 
     projects.push(project_bamntrak);
     projects.push(project_little_library);

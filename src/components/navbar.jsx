@@ -9,8 +9,7 @@ import MenuButton from './menuButton'
 function Navbar() {
     const menuItems = [
         'This is a dynamic component,',
-        'To show I can add some life to a site!',
-        'I think it\'s pretty cool!']
+        'But it doesn\'t do anything yet!']
     const userItems = []
     const userObjects = [<Card />]
 

@@ -22,9 +22,13 @@ function About () {
     return (
         <div className="about">
             <h2>About</h2>
-            <p> How's it going? I'm Lucas, a computer science student at the University of Minnesota.
-                I'm hoping to work as an intern this summer and learn as much as I can! I've been
-                learning web development in my free time and I'm excited to see what I can do with it.
+            <p> Hey, I'm Lucas! I'm a current CS student at the University of Minnesota.
+                I'm hoping to gain experience and work as an intern this summer.
+                
+            </p>
+            <p>
+                Checkout my nutrition app, Bamntrak! It's a full stack app that helps you track your nutritional intake.
+                It's deployed with Netlify on the web, but I'm mainly working on the mobile app version.
             </p>
         </div>
     )
@@ -34,7 +38,7 @@ function Interests () {
     return (
         <div className="interests">
             <h2>Interests</h2>
-            <p> Web Development, 
+            <p> Full-Stack App Development, Web Development, UI/UX Design
             </p>
         </div>
     )

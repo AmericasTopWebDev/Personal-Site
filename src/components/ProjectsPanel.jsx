@@ -8,11 +8,13 @@ import '../styles/ProjectsPanel.css'
 
 {
     class ProjectCard {
-        constructor(title, description, imageRef, link = "project_cards.html") {
+        constructor(title, description, imageRef, link = "project_cards.html", altlink = null, linkText = null) {
             this.title = title;
             this.description = description;
             this.imageRef = imageRef;
             this.link = link;
+            this.altlink = altlink;
+            this.linkText = linkText;
         }
     }
 
@@ -25,7 +27,8 @@ import '../styles/ProjectsPanel.css'
     let project_little_library = new ProjectCard("Local Library Catalog", "A simple site with backend to manage and view a library's book catalog. Uses Express and Mongoose, deployed on render (link may take a while). Part of an MDN Docs tutorial", "./projects/local_library.png", "https://local-library-site.onrender.com");
     let project_minitar = new ProjectCard("Minitar", "A tar archive utility capabale of extraction and archival. Written in C, developed in a team of two.", "./projects/GitHub-Mark.png", "https://github.umn.edu/harr2512/mini-tar")
     let project_swish = new ProjectCard("SWISH", "A simple shell featuring program execution and process management. Written in C, heavy use of system calls. Also developed in a team of two", "./projects/GitHub-Mark.png", "https://github.umn.edu/harr2512/SWISH")
-    let project_bamntrak = new ProjectCard("Bamntrak", "Full-stack nutrition logging app optimized for speedy data entry. Built with React on web and React native on mobile.", "./projects/BamntrakWeb.png", "https://bamntrack.netlify.app/")
+    let project_bamntrak = new ProjectCard("Bamntrak", "Full-stack nutrition logging app optimized for speedy data entry. Built with React on web and React native on mobile. Previewable on Expo, coming to app store in the future.", "./projects/BamntrakWeb.png",
+        "https://bamntrack.netlify.app/", "https://expo.dev/accounts/steveminer/projects/Bamntrak/builds/c5dfb7df-04a7-456a-b438-f4392c9e5c77", "View Latest Android Apk")
 
     projects.push(project_bamntrak);
     projects.push(project_little_library);
